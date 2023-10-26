@@ -16,8 +16,10 @@ public class Factory
 
     public Car createRandomCar()
     {
+    	// Create random variable
         Random rand = new Random();
         
+        // Empty string for type of car
         String carType;
         
         // This makes the chance of choosing a Sedan 30% compared to 70% of choosing the 4 other

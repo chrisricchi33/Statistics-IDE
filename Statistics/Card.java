@@ -10,6 +10,7 @@ public class Card
     private String suit;
     private int value;
 
+    // Constructor to create Card object
     public Card(String face, String suit, int value)
     {
         this.face = face;
@@ -17,6 +18,7 @@ public class Card
         this.value = value;
     }
     
+    // Basic getters and setters
     public String getFace() {
     	return face;
     }

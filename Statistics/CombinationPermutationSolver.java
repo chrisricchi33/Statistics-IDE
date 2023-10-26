@@ -3,6 +3,7 @@
 // 9/19/2023
 // Combatination and Permutation Solver
 // Write methods to solve combinations and permutations using the java API's BigInteger
+// These methods are ALSO in the StatsLibrary class
 
 import java.math.BigInteger;
 
@@ -15,6 +16,7 @@ public class CombinationPermutationSolver
         if (n < 0)
             throw new IllegalArgumentException("N cannot be a negative number.");
         
+        //Using big integer
         BigInteger result = BigInteger.ONE;
         
         for (int j = 2; j <= n; j++)
