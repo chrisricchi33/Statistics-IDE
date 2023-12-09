@@ -60,7 +60,8 @@ public class StatsLibraryGUI
         };
 
         // For each loop to add each button to the panel with the correct handleClick event (see method below)
-        for (int i = 0; i < buttons.length; i++) {
+        for (int i = 0; i < buttons.length; i++) 
+        {
             int finalI = i;
             buttons[i].addActionListener(e -> handleButtonClick(finalI));
             buttonPanel.add(buttons[i]);
