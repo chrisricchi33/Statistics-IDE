@@ -13,6 +13,7 @@ public class StatsLibrary
 	{
 		double sum = 0;
 		
+		// Sum up all elements
 		for (double singleElement : userInputNumbers) {
 			sum = sum + singleElement;
 		}
